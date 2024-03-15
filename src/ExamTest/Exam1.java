@@ -7,7 +7,7 @@ public class Exam1 {
         int num1 = 15;
         int num2 = 4;
 
-        System.out.printf("num1을 num2로 나눈 몫은 %f입니다.\n", num1 / num2); // num1을 num2로 나눈 몫은 3.750000입니다.
+        System.out.printf("num1을 num2로 나눈 몫은 %f입니다.\n", Double.parseDouble(Integer.toString(num1))/ num2); // num1을 num2로 나눈 몫은 3.750000입니다.
 
         //===========================================================================================================
         // 문제2(변수 활용 해야 답 인정)
